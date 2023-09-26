@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parmegianno</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Parmegianno</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reservas">Reservas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#redes sociais">redes sociais</a>
+                    </li>
+                    <a class="nav-link" href="#galeria">galeria</a>
+                    </li>
+                    <a class="nav-link" href="#fale-conosco">fale conosco</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="jumbotron">
+            <h1 class="display-4">Parmegianno</h1>
+            <p class="lead">Uma experiência culinária única e deliciosa.</p>
+            <a class="btn btn-primary btn-lg" href="#reservas" role="button">Faça uma reserva</a>
+        </div>
+
+        <section class="container">
+            <section id="menu">
+                <h2>Menu Cardápio</h2>
+                <hr>
+                <div class="menu-category">
+                    <h3>Entradas</h3>
+                    <ul>
+                        <li>pizza</li>
+                        <li>lasanha</li>
+                        <li>Risotto</li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    <h3>Pratos Principais</h3>
+                    <ul>
+                        <li>Spaghetti Carbonara</li>
+                        <li>Pizza Margherita</li>
+                        <li>Ossobuco alla Milanese</li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    <h3>Sobremesas</h3>
+                    <ul>
+                        <li>Torta Caprese</li>
+                        <li>Panna Cotta</li>
+                        <li>Cannoli</li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    <h3>Bebidas</h3>
+                    <ul>
+                        <li>Vinhos Italianos</li>
+                        <li>Limone Spritz</li>
+                        <li>Limoncello</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="sobre-nos" class="container">
+                <h2>Sobre Nós:</h2>
+                <hr>
+
+                <h3>História do Restaurante</h3>
+                <p>Havia uma vez um jovem chamado Marco, nascido e criado em Roma. Desde tenra idade, ele estava imerso
+                    na cultura da culinária italiana. Seu avô, Nonno Giovanni, era um chef talentoso e ensinou a Marco
+                    todos os segredos da cozinha italiana. Os jantares em família eram eventos épicos, onde receitas
+                    tradicionais eram compartilhadas e saboreadas com alegria.</p>
+
+                <h3>Perfil do Chef</h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="data:image/jpeg;base64,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"
+                            alt="Chef do Restaurante" class="img-fluid">
+                    </div>
+                    <div class="col-md-8">
+                        <p>Conheça o nosso talentoso chef e a equipe de culinária. Compartilhamos as suas formações,
+                            experiências e conquistas que trazem inovação e sabor aos nossos pratos.</p>
+                    </div>
+                </div>
+
+                <h3>Prêmios e Reconhecimentos</h3>
+                <ul>
+                    <li>Destaque como Melhor Restaurante de 2022 pela Revista Gastronômica.</li>
+                    <li>Reconhecimento pela excelência em serviço pelo Guia de Restaurantes.</li>
+                    <li>Prêmio de Melhor Chef do Ano para o nosso chef principal.</li>
+                </ul>
+            </section>
+
+            <section id="reservas" class="container">
+                <h2>Reservas</h2>
+                <hr>
+                <form>
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="data">Data:</label>
+                        <input type="date" class="form-control" id="data">
+                    </div>
+                    <div class="form-group">
+                        <label for="pessoas">Número de pessoas:</label>
+                        <input type="number" class="form-control" id="pessoas" min="1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Reserva</button>
+                </form>
+            </section>
+
+            <section id="galeria">
+                <h2>Galeria de Fotos</h2>
+                <hr>
+                <h4>alguns dos nossos melhores pratos</h4>
+
+                <div class="galeria">
+                    <img src="https://img.cybercook.com.br/receitas/527/massa-de-pizza-7-840x480.jpeg?q=75" alt="pizza">
+                    <img src="https://static.itdg.com.br/images/auto-auto/241cd2e7397abf45c79741778bda6e2f/panna-cotta.jpg"
+                        alt="Panna cotta">
+                    <img src="https://i0.wp.com/www.eurodicas.com.br/wp-content/uploads/2019/06/comidas-tipicas-da-italia.jpg?w=1359&ssl=1"
+                        alt="lasanha">
+                </div>
+            </section>
+
+            <section id="fale-conosco">
+                <h2>Fale Conosco</h2>
+                <hr>
+                <p>Entre em contato conosco:</p>
+                <ul>
+                    <li><strong>Endereço:</strong> Veneza 123,Italia</li>
+                    <li><strong>Telefone:</strong> +55 39 4002-8922</li>
+                    <li><strong>E-mail:</strong> parmegianna@restauranteitaliano.com</li>
+                </ul>
+            </section>
+
+            <section id="redes sociais" class="container">
+                <h2>redes sociais</h2>
+                <li><a href="https://www.instagram.com/seu_perfil_instagram/">Instagram</a></li>
+                <li><a href="https://www.facebook.com/seu_perfil_facebook/">Facebook</a></li>
+                </ul>
+            </section>
+
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+
+</html>

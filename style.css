@@ -1,0 +1,16 @@
+.jumbotron {
+  text-align: center;
+}
+
+.galeria img {
+  display: inline-block;
+  max-width: 30%;
+  height: auto;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+section {
+  margin-bottom: 24px;
+}
